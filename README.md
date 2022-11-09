@@ -37,3 +37,5 @@ Você pode contribuir para esse projeto da seguinte maneira:
 - Create a new Pull Request
 
 ## Licença
+
+[GNU General Public License v3.0](/LICENSE)
