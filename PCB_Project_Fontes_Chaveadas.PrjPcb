@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for PCB_Project_Fontes_Chaveadas
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -141,23 +141,6 @@ GenerateClassCluster=0
 DocumentUniqueId=QUWTPVSM
 
 [Document7]
-DocumentPath=pcb\PCB1_Fontes_Chaveadas.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JXCIIWUV
-
-[Document8]
 DocumentPath=sch\Sheet3_Fontes_Chaveadas_Fontes_Aux.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -174,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NJGDJCYX
 
-[Document9]
+[Document8]
 DocumentPath=bom\BOM1_Fontes_Chaveadas.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=job\Job1_Fontes_Chaveadas.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -208,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=job\Job2_Fontes_Chaveadas.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,7 +208,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=job\Job3_Fontes_Chaveadas.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -242,6 +225,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=pcb\PCB1_Fontes_Chaveadas.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PWVRBSOF
+
 [GeneratedDocument1]
 DocumentPath=out\PCB_Project_Fontes_Chaveadas.xls
 DItemRevisionGUID=
@@ -255,9 +255,6 @@ CurrentRevision=
 Variant=[No Variations]
 GenerateBOM=1
 OutputJobsCount=0
-
-[Generic_EDE]
-OutputDir=Project Outputs for PCB_Project_Fontes_Chaveadas
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -294,6 +291,9 @@ SCH_ExpandSheetNumber=-1
 SCH_ExpandDocumentNumber=-1
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1590,6 +1590,16 @@ ModelUpdate20=1
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+
+[ToDoManager]
+ProjectToDo1=Name=footprint transformador|State=1|UID=RDVQKJSG
+ProjectToDo2=Name=footprint indutor|State=1|UID=CRRERVYO
+ProjectToDo3=Name=fusivel|State=1|UID=OBNABESV
+ProjectToDo4=Name=resistores|State=1|UID=FCAXCHBL
+ProjectToDo5=Name=capacitor REGULADORES|State=1|UID=XLCXSTTC
+ProjectToDo6=Name=leds|State=1|UID=OXOKYNSE
+ProjectToDo7=Name=revisar circuito controle|UID=LYAIUTEJ
+ProjectToDo8=Name=padronizar furos|UID=ESKMJXRX
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
